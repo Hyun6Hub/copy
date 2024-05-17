@@ -3,6 +3,10 @@ import "./css/Commons.css";
 import Menu from "./components/Menu.jsx";
 import MenuList from "./components/MenuList.jsx";
 
+/* app이라는 함수형 컴포넌트 정의 */
+/* list 배열로 정의 */
+/* 이미지와 이름 포함한 4개의 객체 */
+
 export default function App() {
   const list = [
     { href: "#home", name: "Home" },
